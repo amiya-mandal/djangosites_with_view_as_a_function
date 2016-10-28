@@ -1,0 +1,34 @@
+<!doctype html>
+<html lang="en-US">
+<head>
+   <title>Success Notification Boxes</title>
+
+  <meta http-equiv="Content-Type" content="text/html;charset=utf-8">
+
+  <link rel="shortcut icon" href="favicon.ico">
+  <link rel="icon" href="favicon.ico">
+  <link rel="stylesheet" type="text/css" media="all" href="/static/regsuccess.css">
+
+
+  <script type="text/javascript" src="/static/k.js"></script>
+</head>
+
+<body>
+  {% block content %}
+  <div id="w">
+    <div id="content">
+
+      <div class="notify successbox">
+        <h1>Success!</h1>
+        <span class="alerticon"><img src="/static/images/check.png" alt="checkmark" /></span>
+        <p>Thanks so much for your uploading comic. Enajoy our comic sites</p>
+      </div>
+      
+
+      <div><center><a href="/accounts/login_home/" class="myButton">home</a></center>></div>
+      
+    </div><!-- @end #content -->
+  </div><!-- @end #w -->
+{% endblock %}
+</body>
+</html>

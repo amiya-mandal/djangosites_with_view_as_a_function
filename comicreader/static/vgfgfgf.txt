@@ -1,0 +1,11 @@
+.example {
+    background:#fff url(/static/images/android-hd-wallpapers.jpg);
+    width:1280px;
+    height:800px;
+    border:1px #000 solid;
+    margin:20px auto;
+    padding:15px;
+    border-radius:3px;
+    -moz-border-radius:3px;
+    -webkit-border-radius:3px;
+}
